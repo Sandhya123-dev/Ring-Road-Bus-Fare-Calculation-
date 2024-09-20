@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Static Template</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  </head>
+  <body>
+    <header>
+        <h1 class="header">Ringroad Bus Fare Calculator</h1>
+    </header>
+
+    <div class="content">
+        <div class="preloader">
+            <h1>WELCOME TO RING ROAD BUS FARE CALCULATOR </h1>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <script>
+            // JavaScript to handle the loading progress (you can replace this with actual app loading logic)
+            const progressBar = document.querySelector('.progress');
+
+            function simulateLoading() {
+                let progress = 0;
+                const interval = setInterval(() => {
+                    progress += 1;
+                    progressBar.style.width = `${progress}%`;
+
+                    if (progress >= 100) {
+                        clearInterval(interval);
+                        // Remove the preloader when the app is ready
+                        document.querySelector('.preloader').style.display = 'none';
+                    }
+                }, 25); // Adjust the interval as needed
+            }
+
+            window.addEventListener('load', simulateLoading);
+        </script>
+
+        <div class="container">
+            <h3>
+                WELCOME TO BUS FARE CALCULATOR
+            </h3>
+            <p>
+                You can register if yo don't have an Account.
+                and login drectly if you have an account.
+            </p>
+            <a href="register.html">Register</a> <!-- yesma paxi arko code halnu parxa -->
+            <a href="login.html">Login</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="/dashboard.html" class="nav-item"><ion-icon name="home-outline"></ion-icon></a></li>
+            <li>    <a href="/myaccount.html" class="nav-item"> <ion-icon name="person-outline"></ion-icon> </a></li>
+            <li><a href="/aboutus.html" class="nav-item"><ion-icon name="information-circle-outline"></ion-icon></a></li>
+            <li><a href="/support.html" class="nav-item"><ion-icon name="call-outline"></ion-icon></a></li>
+          </ul>
+    </footer>
+  </body>
+</html>

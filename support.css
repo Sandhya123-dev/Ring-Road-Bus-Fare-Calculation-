@@ -1,0 +1,120 @@
+.container1 {
+    /* max-width: 600px; */
+    width: 170vh;
+    height: 80vh;
+    margin-top: 10px;
+    position: relative; /* or absolute, depending on your layout */
+    /* top: 250px; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.help h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-top: 5%;
+  }
+  
+  /* Style the 'Customer Support' paragraph */
+  .customer p {
+    font-size: 20px;
+    color: #666;
+    padding-bottom: 2.5%;
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+
+  /* Style the support section */
+  .support {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Style the support boxes */
+  .box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Style icons in support boxes */
+  .box i {
+    font-size: 24px;
+  }
+  
+  /* Style the FAQ and Rate Us sections */
+  .faq, .button {
+    margin-top: 20px;
+  }
+  
+  /* Style the FAQ and Rate Us boxes */
+  .faq .box, .button button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color:#f7f2f2 ;
+    
+    font-size: 16px;
+    color: #333;
+  }
+  .faq .icon-right {
+    font-size: 30px; /* Adjust the size for the right icon */
+    color: #333  ; /* Change the color for the right icon */
+    margin-left: 82%;
+    /* Add any other styles for the right icon here */
+}
+.rate .icon-right {
+    font-size: 30px; /* Adjust the size for the right icon */
+    color: #333  ; /* Change the color for the right icon */
+    margin-left: 80%;
+    
+    /* Add any other styles for the right icon here */
+}
+.rate .box{
+    height: 20px;
+    font-size: 16px;
+    margin-top: 3%;
+    background-color:#f7f2f2 ;
+}
+  
+  /* Style the LOG OUT button */
+  .button button {
+    padding: 10px 20px;
+   
+    background-color: #958b8b;
+    border-radius: 5%;
+    color: #fff;
+    margin-left: 85%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* On hover, change background color of the LOG OUT button */
+  .button button:hover {
+    background-color: #333;
+   
+  }
+  
+  /* Style the icons in the Rate Us section */
+  .faq .box i {
+    font-size: 24px;
+  }
+  
+  /* Add a right chevron icon to the FAQ box */
+  .faq .icon-right {
+    font-size: 18px;
+  }
+
+
+
+

@@ -1,0 +1,131 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+/* body{
+    background-image: linear-gradient(to bottom, rgb(224, 205, 241), #bebac4, rgb(216, 216, 223)); /* Gradient background */
+/* } */
+*/
+ .container1 {
+    /* max-width: 600px; */
+    width: 170vh;
+    height: 80vh;
+    margin-top: 10px;
+    position: relative;
+    /* or absolute, depending on your layout */
+    /* top: 250px; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.destination{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+p{
+    margin-top: 70px;
+    font-size: large;
+    font-weight: bold;
+    margin-left:  100px;
+}
+select {
+    height: 50px;
+    width: 25%;
+    /* Make the select element fill the entire container */
+    padding: 1px;
+    /* Add some padding for better spacing */
+    font-size: 16px;
+    /* Set the font size for the select element */
+    border: 1px solid #ccc;
+    /* Add a border for the select element */
+    border-radius: 4px;
+    /* Add rounded corners */
+    margin-top: 50px;
+    /* Add some space between select elements */
+    top: 100px;
+}
+
+
+#map {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    /* height: 500px; */
+    /* width: 100%; */
+    margin-left: 160px;
+}
+
+/* select, */
+/* input[type="radio"], */
+button {
+    margin: 10px 0;
+}
+
+.group {
+   
+text-align: center;
+
+}
+
+label {
+    display: inline;
+    position: relative;
+    flex-direction:row;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+button {
+   
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 600px;
+    text-align: center;
+    align-items:center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#subtractedValue,
+#displayValue {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#subtractedValue,
+#displayValue {
+    font-size: 1.2em;
+    /* Set the font size */
+    margin-bottom: 10px;
+    /* Add some space between the elements */
+    color: #333;
+    /* Set the text color */
+    font-weight: bold;
+    /* Make the text bold */
+}
+
+#subtractedValue {
+    border-bottom: 1px solid #ccc;
+    /* Add a bottom border */
+    padding-bottom: 5px;
+    /* Add some space below the text */
+}
+
+/* Style for the footer */
+.footer {
+    background-color: #333;
+    /* Change the background color as per your design */
+    color: #fff;
+    /* Change the text color as per your design */
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.container1 {
+    /* max-width: 600px; */
+    width: 170vh;
+    height: 80vh;
+    margin-top: 10px;
+    position: relative; /* or absolute, depending on your layout */
+    /* top: 250px; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,83 @@
+  .container1 {
+    /* max-width: 600px; */
+    width: 170vh;
+    height: 80vh;
+    margin-top: 10px;
+    position: relative; /* or absolute, depending on your layout */
+    /* top: 250px; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+/* .sub-link{
+    display: flex;
+    flex-direction: ;
+} */
+  /* Style the header */
+  .heading {
+    /* background-color: #007bff; */
+    margin-top: 3%;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Style the user info container */
+  .user-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .user-info img {
+    width: 100px; /* Adjust the size of the profile picture */
+    border-radius: 50%; /* Make the profile picture round */
+  }
+  
+  .user-info h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  /* Style the user info links */
+  .user-info-link {
+    display: flex;
+    padding: 1.5%;
+    margin-right: 10%;
+    padding-top: 1%;
+    height: 7px;
+    margin-left: 5%;
+    align-items: center;
+    /* margin: 10px 0; */
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .user-info-link img {
+    width: 30px; /* Adjust the size of the icon */
+    margin-right: 10px;
+  }
+  
+  .user-info-link p {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  /* Add a hover effect to the links */
+  .user-info-link:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style the horizontal rule */
+  hr {
+    margin: 20px 0;
+    height: 1px;
+    margin-left: 5%;
+    width: 90%;
+    border: 0;
+    border-top: 1px solid #ddd;
+  }
