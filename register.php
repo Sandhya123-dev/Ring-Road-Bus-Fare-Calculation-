@@ -16,7 +16,9 @@
     $username = "root";
     $password = "";
     $dbname = "busproject";
+ 
 
+    
     // creating a connection
     $con = mysqli_connect($host, $username, $password, $dbname);
 
